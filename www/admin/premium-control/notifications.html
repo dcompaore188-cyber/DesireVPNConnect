@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Notifications Premium - Désiré VPN Connect</title>
+
+<link rel="stylesheet" href="../admin.css">
+
+</head>
+
+
+<body>
+
+<div class="dashboard">
+
+<h1>🔔 Notifications Premium</h1>
+
+
+<div class="card">
+
+<h3>Envoyer une notification</h3>
+
+
+<input 
+type="text" 
+id="notificationTitle" 
+placeholder="Titre">
+
+
+<textarea 
+id="notificationMessage" 
+placeholder="Message">
+</textarea>
+
+
+<select id="notificationType">
+
+<option>🆕 Nouveau fichier</option>
+
+<option>🎁 Promotion</option>
+
+<option>⚠️ Information</option>
+
+<option>🔧 Maintenance</option>
+
+</select>
+
+
+<button onclick="sendNotification()">
+
+📢 Envoyer
+
+</button>
+
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Historique des notifications</h3>
+
+
+<div id="notificationList">
+
+<p>Aucune notification</p>
+
+</div>
+
+
+</div>
+
+
+<button onclick="history.back()">
+
+⬅ Retour
+
+</button>
+
+
+</div>
+
+
+<script src="notifications.js"></script>
+
+
+</body>
+
+</html>
