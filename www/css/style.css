@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #ffffff;
+    color: #222;
+}
+
+header {
+    background: #5b2cff;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.menu button {
+    background: #f3f3f3;
+    border: none;
+    padding: 18px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.card {
+    margin: 20px;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px #ddd;
+    text-align: center;
+}
+
+.connect {
+    background: #5b2cff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
+.admin-access a {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    background: #6a0dad;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}

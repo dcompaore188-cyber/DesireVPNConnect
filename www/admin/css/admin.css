@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+}
+
+.admin-box {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #6a0dad;
+    font-size: 32px;
+}
+
+.welcome {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #6a0dad;
+}
+
+button {
+    background: #6a0dad;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:active {
+    transform: scale(0.95);
+}

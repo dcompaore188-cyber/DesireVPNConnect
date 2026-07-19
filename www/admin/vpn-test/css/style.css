@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+}
+
+.admin-box {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #6a0dad;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 90%;
+    padding: 14px;
+    background: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.list {
+    background: white;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 12px;
+}

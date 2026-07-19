@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connexion Admin - Désiré VPN Connect</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+
+<div class="admin-box">
+
+<h1>🔐 Accès Administrateur</h1>
+
+<input id="username" type="text" placeholder="Identifiant">
+
+<br><br>
+
+<input id="password" type="password" placeholder="Mot de passe">
+
+<br><br>
+
+<button onclick="connexion()">Connexion</button>
+
+<p id="message"></p>
+
+</div>
+
+<script>
+function connexion(){
+
+let user = document.getElementById("username").value;
+let pass = document.getElementById("password").value;
+
+if(user === "admin" && pass === "DesireVPN2026"){
+    window.location.href = "dashboard.html";
+}
+else{
+    document.getElementById("message").innerHTML =
+    "❌ Identifiant ou mot de passe incorrect";
+}
+
+}
+</script>
+
+</body>
+
+</html>
