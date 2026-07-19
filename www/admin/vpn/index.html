@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gestion VPN - Désiré VPN Connect</title>
+
+<link rel="stylesheet" href="../admin.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<h1>📂 Gestion des fichiers VPN</h1>
+
+<div class="card">
+
+<h3>Ajouter un VPN</h3>
+
+<input type="text" id="vpnName" placeholder="Nom du VPN">
+
+<input type="text" id="vpnDescription" placeholder="Description">
+
+<select id="vpnStatus">
+<option>🟢 En ligne</option>
+<option>🟡 Mise à jour</option>
+<option>🔴 Hors ligne</option>
+<option>⚫ Expiré</option>
+</select>
+
+<input type="text" id="vpnSize" placeholder="Taille du fichier">
+
+<input type="date" id="vpnExpire">
+
+<button onclick="addVPN()">➕ Ajouter</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>Liste des VPN</h3>
+
+<div id="vpnList">
+<p>Aucun fichier ajouté</p>
+</div>
+
+</div>
+
+
+<button onclick="history.back()">⬅ Retour</button>
+
+</div>
+
+
+<script src="vpn.js"></script>
+
+</body>
+</html>

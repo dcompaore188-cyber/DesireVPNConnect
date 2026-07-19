@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gestion des annonces - Désiré VPN Connect</title>
+
+<link rel="stylesheet" href="../admin.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<h1>📢 Gestion des annonces</h1>
+
+<div class="card">
+
+<h3>Ajouter une annonce</h3>
+
+<input type="text" id="title" placeholder="Titre de l'annonce">
+
+<textarea id="content" placeholder="Contenu de l'annonce"></textarea>
+
+<select id="type">
+<option>🆕 Nouveau fichier</option>
+<option>🔥 Promotion</option>
+<option>⚠️ Maintenance</option>
+<option>📢 Information</option>
+</select>
+
+<button onclick="addAnnouncement()">
+➕ Publier
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>Liste des annonces</h3>
+
+<div id="announcementList">
+<p>Aucune annonce</p>
+</div>
+
+</div>
+
+
+<button onclick="history.back()">
+⬅ Retour
+</button>
+
+</div>
+
+
+<script src="annonces.js"></script>
+
+</body>
+</html>
