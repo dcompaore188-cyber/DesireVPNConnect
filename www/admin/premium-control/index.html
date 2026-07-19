@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contrôle Premium - Désiré VPN Connect</title>
+
+<link rel="stylesheet" href="../admin.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<h1>⭐ Contrôle Premium</h1>
+
+<div class="card">
+
+<h3>Gestion des offres</h3>
+
+<input type="text" id="premiumTitle" placeholder="Nom de l'offre">
+
+<input type="text" id="premiumPrice" placeholder="Prix FCFA">
+
+<select id="premiumStatus">
+<option>🟢 Active</option>
+<option>🔴 Désactivée</option>
+</select>
+
+<button onclick="savePremium()">
+💾 Enregistrer
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>📦 Fichiers Premium</h3>
+
+<button>
+➕ Ajouter un fichier Premium
+</button>
+
+<button>
+📋 Voir les fichiers
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>🛒 Commandes</h3>
+
+<p id="orders">
+Aucune commande
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>🎁 Promotions</h3>
+
+<button>
+Ajouter une promotion
+</button>
+
+</div>
+
+
+<button onclick="history.back()">
+⬅ Retour
+</button>
+
+
+</div>
+
+
+<script src="control.js"></script>
+
+</body>
+</html>

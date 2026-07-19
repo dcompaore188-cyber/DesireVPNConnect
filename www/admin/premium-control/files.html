@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fichiers Premium - Désiré VPN Connect</title>
+
+<link rel="stylesheet" href="../admin.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<h1>📦 Fichiers Premium</h1>
+
+
+<div class="card">
+
+<h3>Ajouter un fichier Premium</h3>
+
+<input type="text" id="fileName" placeholder="Nom du fichier">
+
+<input type="text" id="fileVersion" placeholder="Version">
+
+<input type="text" id="fileLink" placeholder="Lien de téléchargement">
+
+<button onclick="addPremiumFile()">
+➕ Ajouter
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>Liste des fichiers Premium</h3>
+
+<div id="fileList">
+<p>Aucun fichier</p>
+</div>
+
+</div>
+
+
+<button onclick="history.back()">
+⬅ Retour
+</button>
+
+
+</div>
+
+
+<script src="files.js"></script>
+
+</body>
+
+</html>

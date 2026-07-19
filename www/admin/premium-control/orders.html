@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Commandes Premium - Désiré VPN Connect</title>
+
+<link rel="stylesheet" href="../admin.css">
+
+</head>
+
+
+<body>
+
+<div class="dashboard">
+
+<h1>🛒 Commandes Premium</h1>
+
+
+<div class="card">
+
+<h3>Ajouter une commande</h3>
+
+<input type="text" id="clientName" placeholder="Nom du client">
+
+<select id="offer">
+
+<option>1 semaine - 500 FCFA</option>
+
+<option>1 mois - 1000 FCFA</option>
+
+</select>
+
+
+<select id="orderStatus">
+
+<option>⏳ En attente</option>
+
+<option>✅ Payée</option>
+
+<option>❌ Annulée</option>
+
+</select>
+
+
+<button onclick="addOrder()">
+
+➕ Ajouter
+
+</button>
+
+
+</div>
+
+
+<div class="card">
+
+<h3>Historique des commandes</h3>
+
+<div id="orderList">
+
+<p>Aucune commande</p>
+
+</div>
+
+
+</div>
+
+
+<button onclick="history.back()">
+
+⬅ Retour
+
+</button>
+
+
+</div>
+
+
+<script src="orders.js"></script>
+
+
+</body>
+
+</html>
