@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gestion Premium - Désiré VPN Connect</title>
+
+<link rel="stylesheet" href="../admin.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<h1>⭐ Gestion Premium</h1>
+
+<div class="card">
+
+<h3>Ajouter une offre</h3>
+
+<input type="text" id="offerName" placeholder="Nom de l'offre">
+
+<input type="text" id="price" placeholder="Prix FCFA">
+
+<select id="status">
+<option>🟢 Active</option>
+<option>🔴 Désactivée</option>
+</select>
+
+<button onclick="addPremium()">
+➕ Ajouter
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>Offres Premium</h3>
+
+<div id="premiumList">
+<p>Aucune offre</p>
+</div>
+
+</div>
+
+
+<button onclick="history.back()">
+⬅ Retour
+</button>
+
+</div>
+
+
+<script src="premium.js"></script>
+
+</body>
+</html>
