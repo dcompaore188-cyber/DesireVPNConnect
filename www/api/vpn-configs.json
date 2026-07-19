@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "vpn_servers": [
+    {
+      "name": "France VPN",
+      "status": "active",
+      "config": "france-config.ovpn"
+    },
+    {
+      "name": "Allemagne VPN",
+      "status": "active",
+      "config": "germany-config.ovpn"
+    }
+  ]
+}
